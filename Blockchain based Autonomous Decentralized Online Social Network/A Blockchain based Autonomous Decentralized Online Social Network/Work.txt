@@ -1,0 +1,50 @@
+OSN Server
+----------
+Login,
+View All Users and Authorize,
+View Friend Request and Response,
+View All Users Details Based on Blockchain,
+View All tweets Based on Blockchain,
+View Tweets Recommendations,
+View All tweets Rank in Chart,
+
+End User
+-----------
+
+Register and Login,
+View My Profile,
+Search Friend,
+View Friend Requests,
+View All My Friends,
+Publish Tweet,
+View All My Tweets,
+View All My Friends Tweets,
+View All Recommended Tweets.
+
+
+Members
+---------
+
+Id,
+Tweet Image, 
+Tweet Name, 
+Uploader Name, 
+Description,
+(Decrypted) 
+Uses,
+Upload Date,
+Rank,
+Ratings,
+Tweet Block Chain, 
+Under Hash Code.
+
+
+
+
+
+
+
+
+
+
+

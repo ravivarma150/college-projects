@@ -1,0 +1,33 @@
+Cloud
+
+Login,
+View Attackers,
+View Files,
+View Service Recommendations By Blockchain,
+Authorize User,
+Authorize Owner,
+Search Requests,
+Download Requests,
+View File Rank Results,
+View Time Delay Results,
+View Throughput Results.
+
+
+
+Owner
+
+Register and Login,
+View Files,
+Upload File,
+Update File.
+
+
+User
+
+Register and Login,
+View Service Recommendations,
+Search,
+Download,
+View Files,
+Search Request,
+Download Request.

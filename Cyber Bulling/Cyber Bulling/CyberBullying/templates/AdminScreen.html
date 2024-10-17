@@ -1,0 +1,49 @@
+{% load static %}
+<html>
+<head>
+<title>Predicting Cyberbullying on Social Media</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1>Predicting Cyberbullying on Social Media in the
+Big Data Era Using Machine<br/> Learning Algorithms:
+Review of Literature and Open Challenges</h1>
+		</div>
+		<div id="slogan">
+			
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+      <li><a href="{% url 'ViewUsers' %}">View Users</a></li>
+      <li><a href="{% url 'VerifyUsers' %}">Verify Users</a></li>
+      <li><a href="{% url 'MonitorPost' %}">Monitor Post</a></li>
+	  <li><a href="{% url 'AddCyberMessages' %}">Add Bullying Msgs</a></li>
+	  <li><a href="{% url 'RunAlgorithms' %}">Run Algorithms</a></li>
+      <li><a href="{% url 'index' %}">Logout</a></li>
+   </ul>
+		<br class="clearfix" />
+	</div>
+	<div id="splash">
+		<img class="pic" src="{% static 'images/investor.JPG' %}" width="870" height="230" alt="" />
+	</div>
+	<br/>
+	 <center><font face="verdana" color="red">{{ data }}</font></center>
+	 <br/>
+	<p align="justify"><font size="3" style="font-family: Comic Sans MS">
+	Abstract-Prior to the innovation of information communication technologies (ICT), social interactions
+evolved within small cultural boundaries such as geo spatial locations. The recent developments of communication
+technologies have considerably transcended the temporal and spatial limitations of traditional
+communications. These social technologies have created a revolution in user-generated information, online
+human networks, and rich human behavior-related data. However, the misuse of social technologies such as
+social media (SM) platforms, has introduced a new form of aggression and violence that occurs exclusively
+online. A new means of demonstrating aggressive behavior in SM websites are highlighted in this paper. The
+motivations for the construction of prediction models to ght aggressive behavior in SM are also outlined.
+We comprehensively review cyberbullying prediction models and identify the main issues related to the
+construction of cyberbullying prediction models in SM.</p>
+</body>
+</html>

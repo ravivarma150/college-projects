@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/acer/Downloads/Bank-Management--main/Bank-Management--main/database.s3db" readonly="0" foreign_keys="0" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="0" synchronous="1"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="687"/><column_width id="4" width="0"/></tab_structure><tab_browse><current_table name="4,9:mainbank data"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">select*from database
+
+insert into database  values(20,54893259526362,4584,'ramkiran',48792,7852896326)
+
+update database set pin=4590 where pin=4584
+
+update database set account=42122882102512491 ,pin=9616 where id=1 </sql><current_tab id="0"/></tab_sql></sqlb_project>
